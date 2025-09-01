@@ -119,3 +119,7 @@ footer {
   transform: translateY(-5px);
   box-shadow: 0 0 20px #00ffe0;
 }
+
+#project-list {
+  color: white;
+}
