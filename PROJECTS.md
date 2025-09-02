@@ -1,25 +1,30 @@
-# 📂 My Projects
+# 🚀 My Projects
+
+## 💻 Custom Gaming PC Build
+- Built a high-performance gaming rig with AMD Ryzen 9 & NVIDIA RTX 4080.  
+- Optimized cooling using liquid cooling system.  
+- Overclocked safely for max performance.  
+- 🔗 [View Build Log](https://github.com/mdutracesa/portfolio_projects)
 
 ---
 
-## 💻 Custom PC Build
-- **Description:** Documenting a high-performance computer build for gaming and development work.  
-- **Tools/Parts:** AMD Ryzen, NVIDIA GPU, SSD, Liquid Cooling  
-- **Status:** Completed  
-- **Link:** *(Add blog link or YouTube video if available)*
+## 🌐 Personal Portfolio Website
+- Designed a responsive portfolio using HTML, CSS, and JavaScript.  
+- Added smooth scrolling, animations, and markdown-powered projects section.  
+- Hosted live on GitHub Pages.  
+- 🔗 [Visit Website](https://mdutracesa.github.io/portfolio_projects/)
 
 ---
 
-## 🌐 Portfolio Website
-- **Description:** This very site! Built with HTML, CSS, and JavaScript, fully hosted on GitHub Pages.  
-- **Tools:** HTML, CSS, JavaScript, GitHub Pages  
-- **Status:** Active  
-- **Link:** [Live Website](https://yourusername.github.io/tech-portfolio/)  
+## ⚡ E-Commerce Platform
+- Developed a mini Shopify-style store using PHP + MySQL.  
+- Features include **user login, cart, and checkout**.  
+- Built secure backend with hashed passwords.  
+- 🔗 [View Code](https://github.com/mdutracesa/portfolio_projects)
 
 ---
 
-## ⚡ JavaScript Tool
-- **Description:** A utility tool that automates developer workflows.  
-- **Tools:** JavaScript, Node.js  
-- **Status:** Work in Progress  
-- **Link:** *(Coming soon)*
+## 🖥️ Python Automation Scripts
+- Created Python tools for file renaming, data cleaning, and API testing.  
+- Scripts improved workflow efficiency by 70%.  
+- 🔗 [Check Scripts](https://github.com/mdutracesa/portfolio_projects)
