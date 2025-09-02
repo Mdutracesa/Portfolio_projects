@@ -1,90 +1,99 @@
-body {
+/* ===== Global Reset ===== */
+* {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #0a0a0a;
-  color: #fff;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.hero {
+/* ===== Body Theme ===== */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0d0d0d, #1a1a2e, #16213e);
+  color: #ffffff;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Header ===== */
+header {
+  background: rgba(10, 10, 30, 0.9);
+  color: #00ffe0;
   text-align: center;
-  padding: 4rem 2rem;
-  background: linear-gradient(135deg, #001f25, #0a0a0a);
-  box-shadow: 0 0 25px rgba(0,255,224,0.3);
+  padding: 2rem 1rem;
+  box-shadow: 0 0 20px rgba(0, 255, 224, 0.3);
 }
 
-.hero h1 {
+header h1 {
   font-size: 2.5rem;
-  color: #00ffe0;
+  text-shadow: 0 0 15px #00ffe0;
 }
 
-nav a {
-  color: #00ffe0;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-nav a:hover {
-  text-shadow: 0 0 10px #00ffe0;
-}
-
-.projects {
-  padding: 3rem 2rem;
-  max-width: 900px;
+/* ===== Projects Section ===== */
+#projects {
+  flex: 1;
+  padding: 3rem 1rem;
+  max-width: 1000px;
   margin: auto;
 }
 
-/* Project Cards */
-.project-card {
-  background: rgba(20, 20, 20, 0.95);
-  padding: 1.8rem;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,255,224,0.25);
-  margin-bottom: 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+/* Markdown Output Styling */
+#project-list,
+#project-list * {
+  color: #ffffff !important; /* Force all text white */
 }
-.project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 0 30px rgba(0,255,224,0.6);
+
+#project-list h1 {
+  font-size: 2.2rem;
+  color: #ff6ec7 !important; /* Neon pink for main title */
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 15px #ff6ec7;
+  text-align: center;
 }
-.project-card h2, .project-card h3 {
-  color: #00ffe0;
-  margin-bottom: 0.8rem;
-}
-.project-card p, .project-card li {
-  color: #f5f5f5;
+
+#project-list h2 {
+  font-size: 1.6rem;
+  color: #00ffe0 !important; /* Cyan headings */
   margin-bottom: 0.5rem;
 }
 
-/* Scroll animation */
-section, .project-card {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease-out;
-}
-section.visible, .project-card.visible {
-  opacity: 1;
-  transform: translateY(0);
+#project-list p {
+  margin-bottom: 0.8rem;
 }
 
-/* Preloader */
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  color: #00ffe0;
-  z-index: 9999;
-  transition: opacity 0.5s ease;
+#project-list a {
+  color: #00bfff !important; /* Bright blue links */
+  font-weight: bold;
+  text-decoration: none;
 }
 
-footer {
-  text-align: center;
+#project-list a:hover {
+  text-decoration: underline;
+}
+
+/* Project Card Style */
+.project-card {
+  background: rgba(25, 25, 40, 0.85);
+  border: 1px solid #00ffe0;
+  border-radius: 14px;
   padding: 1.5rem;
-  border-top: 1px solid rgba(0,255,224,0.2);
-  margin-top: 2rem;
+  margin: 1.5rem 0;
+  box-shadow: 0 0 15px #00ffe0;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px #00ffe0;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: rgba(10, 10, 30, 0.9);
+  color: #cccccc;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: auto;
 }
