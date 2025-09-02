@@ -1,99 +1,93 @@
-/* ===== Global Reset ===== */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ===== Body Theme ===== */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
   background: linear-gradient(135deg, #0d0d0d, #1a1a2e, #16213e);
-  color: #ffffff;
+  color: #fff;
   line-height: 1.6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-/* ===== Header ===== */
 header {
   background: rgba(10, 10, 30, 0.9);
-  color: #00ffe0;
+  padding: 1rem;
   text-align: center;
-  padding: 2rem 1rem;
   box-shadow: 0 0 20px rgba(0, 255, 224, 0.3);
 }
 
 header h1 {
-  font-size: 2.5rem;
-  text-shadow: 0 0 15px #00ffe0;
+  color: #00ffe0;
+  margin-bottom: 0.5rem;
 }
 
-/* ===== Projects Section ===== */
-#projects {
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00ffe0;
+}
+
+section {
   flex: 1;
-  padding: 3rem 1rem;
+  padding: 2rem;
   max-width: 1000px;
   margin: auto;
 }
 
-/* Markdown Output Styling */
-#project-list,
-#project-list * {
-  color: #ffffff !important; /* Force all text white */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
 }
 
-#project-list h1 {
-  font-size: 2.2rem;
-  color: #ff6ec7 !important; /* Neon pink for main title */
-  margin-bottom: 1.5rem;
-  text-shadow: 0 0 15px #ff6ec7;
+.card {
+  background: rgba(25, 25, 40, 0.85);
+  border: 1px solid #00ffe0;
+  border-radius: 12px;
+  padding: 1rem;
   text-align: center;
+  box-shadow: 0 0 15px #00ffe0;
 }
 
-#project-list h2 {
-  font-size: 1.6rem;
-  color: #00ffe0 !important; /* Cyan headings */
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  color: #ff6ec7;
   margin-bottom: 0.5rem;
 }
 
-#project-list p {
-  margin-bottom: 0.8rem;
+.card button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background: #00ffe0;
+  color: #000;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-#project-list a {
-  color: #00bfff !important; /* Bright blue links */
-  font-weight: bold;
-  text-decoration: none;
+.card button:hover {
+  background: #00bfff;
 }
 
-#project-list a:hover {
-  text-decoration: underline;
-}
-
-/* Project Card Style */
-.project-card {
-  background: rgba(25, 25, 40, 0.85);
-  border: 1px solid #00ffe0;
-  border-radius: 14px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  box-shadow: 0 0 15px #00ffe0;
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-}
-
-.project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 0 25px #00ffe0;
-}
-
-/* ===== Footer ===== */
 footer {
   background: rgba(10, 10, 30, 0.9);
-  color: #cccccc;
+  color: #ccc;
   text-align: center;
   padding: 1rem;
-  font-size: 0.9rem;
   margin-top: auto;
 }
