@@ -1,10 +1,10 @@
 # 🚀 My Projects
 
-## 💻 Custom Gaming PC Build
-- Built a high-performance gaming rig with AMD Ryzen 9 & NVIDIA RTX 4080.  
-- Optimized cooling using liquid cooling system.  
-- Overclocked safely for max performance.  
-- 🔗 [View Build Log](https://github.com/mdutracesa/portfolio_projects)
+## 🌐 Elanga Tech Blog 
+- Read about building Computers and Servers and all about Technology.
+- Download free PDF Courses AI course and Programming languages and other books.  
+- Read and learn on Our blog.
+- 🔗 [Visit blog](https://elangatech-and-projects.blogspot.com)
 
 ---
 
